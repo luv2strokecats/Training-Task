@@ -1,7 +1,9 @@
 <?php
 
-$a = 1;
-$b = 6;
+error_reporting(-1);
 
-echo mt_rand($a, $b);
+echo "Бросаем кубик...\n";
+$random = mt_rand(1, 6);
+echo "Выпало $random\n";
+
 ?>
